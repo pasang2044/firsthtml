@@ -1,5 +1,9 @@
 body {
-  background-color: burlywood;
+  background-color: maroon;
+}
+.title {
+  text-align: center;
+  text-decoration-color: chartreuse;
 }
 .menu {
   display: flex;
@@ -9,12 +13,35 @@ body {
   align-items: center;
 }
 .menu ul {
-  background-color: aquamarine;
+  background-color: gold;
   display: flex;
   position: fixed;
   justify-content: space-around;
-  height: 60px;
+  height: 50px;
   list-style-type: none;
   align-items: center;
   width: 100%;
+  text-align: center;
+}
+h1 {
+  text-align: center;
+}
+.Timeline {
+  text-align: center;
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    background-color: blue;
+  }
+}
+@media screen and (max-width: 600px) {
+  body {
+    background-color: olive;
+  }
+}
+
+.Power_Dunk {
+  border: tomato;
+  padding: 50px;
 }
